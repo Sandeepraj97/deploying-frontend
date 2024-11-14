@@ -1,3 +1,3 @@
-This repository contains a Book Review Server-side Application created as part ofBack-End Apps with Node.js and Express
+This repository contains a Book Review Server-side Application created as part of front-part with react js
 
-deployed-backend-url :- https://deploying-backend-ojva.onrender.com/api/reviews
+deployed-Frontend-url :- https://deploying-frontend-jet.vercel.app/
