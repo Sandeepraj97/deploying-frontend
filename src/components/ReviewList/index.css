@@ -1,0 +1,35 @@
+h2{
+    color: rgb(50, 98, 117);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+
+.review-cointainer{
+   display: flex;
+   flex-direction: column;
+}
+.review-cointainer h2{
+    font-size: 22px;
+    color: rgb(11, 88, 65);
+    text-align: center;
+}
+.review-cointainer ul{
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+.review-cointainer ul li {
+    list-style: none;
+    margin-top: 10px;
+}
+h3 strong {
+    font-size: 18px;
+    color: rgb(43, 97, 97);
+    font-weight: 800;
+}
+
+strong,em{
+    font-weight: 600;
+    font-size: 16px;
+    color: rgb(43, 97, 97);
+}

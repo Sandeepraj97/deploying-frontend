@@ -1,0 +1,85 @@
+
+.book-cointainer{
+    gap: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 70%;
+}
+
+.book-item{
+    display: flex;
+    flex-direction: column;
+}
+
+img{
+    height: 250px;
+    width: 200px;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+.text-cointainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.text-cointainer h1{
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Times New Roman', Times, serif;
+    color: #4c6668;
+    text-align: center;
+}
+.text-cointainer p{
+    color: #357cbe;
+    font-size: 16px;
+    font-weight: 500px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+    width: 80vw;
+    margin-top: 20px;
+}
+
+input, textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 350px;
+    overflow: hidden;
+    flex-wrap: wrap;
+}
+
+button {
+    padding: 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 150px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.review-list .review {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.content-elemet{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
